@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+<<<<<<< HEAD
+
+#Debugged objec informations
+*.pdb
+
+
+#Linker file
+*.ilk
