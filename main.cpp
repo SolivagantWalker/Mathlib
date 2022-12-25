@@ -2,15 +2,18 @@
 //testing
 #include "mathlib_SW.h"
 
-using namespace mathlib;
+using namespace mathlib_SW;
 
 int main(int argc , char*argv)
 {
 
-    Vector2D vec1(1,1);
-    Vector2D vec2(1,1);
-    Vector2D vec3(2,1);
-    std::cout<<(vec1==vec2)?true:false;
-    std::cout<<(vec2==vec3)?true:false;
+    Vector2D vec1(1,2);
+    Vector2D vec2 = vec1;
+    vec2 = vec1;
+
+
+
+
+
     return 0;
 }
