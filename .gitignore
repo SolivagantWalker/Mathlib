@@ -35,4 +35,4 @@
 *.ilk
 
 #Debug
-*.pbd
+*.pdb
